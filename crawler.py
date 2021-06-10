@@ -28,6 +28,12 @@ if __name__ == "__main__":
             list = exec("list = "+run, None, locals)
             big_hop_list.extend(locals["list"])
 
+            run = file.replace(".py","")+".crawl_yeasts()"
+            locals = {}
+            list = exec("list = "+run, None, locals)
+            big_yeast_list.extend(locals["list"])
+
     dump_to_json("malt", big_malt_list)
     dump_to_json("hop", big_hop_list)
+    dump_to_json("yeast", big_yeast_list)
     #print(big_hop_list)

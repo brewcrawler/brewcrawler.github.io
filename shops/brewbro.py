@@ -1,6 +1,4 @@
 import requests
-import json
-import os.path
 from bs4 import BeautifulSoup
 
 
@@ -58,6 +56,20 @@ def process_hops(soup):
             }
             hop_list.append(temp)
 
+def process_yeasts(soup):
+    yeasts = soup.find_all("div", class_="product-snapshot list_div_item")
+    for yeast in yeasts:
+            name = yeast.find('div', class_='snapshot-list-item list_prouctname').text.replace("\n", "")
+            price = yeast.find('div', class_='snapshot-list-item list_prouctprice').text.replace("\n", "").replace("    ", "")
+
+            temp = {
+                "type" : "yeast",
+                "name" : name,
+                "price" : price,
+                "shop": SHOP
+            }
+            yeast_list.append(temp)
+
 def crawl_malts():
     for malt_page in MALT_URL:
         page = requests.get(malt_page)
@@ -91,18 +103,20 @@ def crawl_hops():
     return hop_list
 
 def crawl_yeasts():
-    
+    for yeast_page in YEAST_URL:
+        page = requests.get(yeast_page)
+        soup = BeautifulSoup(page.content, 'html.parser')
+        multiple_pages = soup.find_all("a", class_="pagination-link")
+        page_list = []
+        for mp in multiple_pages:
+            page_list.append(mp["href"])
+        page_list=list(dict.fromkeys(page_list))
+        process_yeasts(soup)
+        for other_page in page_list:
+            page = requests.get(other_page)
+            soup = BeautifulSoup(page.content, 'html.parser')
+            process_yeasts(soup)
     return yeast_list
-    pass
-
-def dump_to_json(type, list):
-    data_path = os.path.split(os.path.dirname(__file__))[0]
-    json_object = json.dumps(list, indent = 4)
-    with open(data_path+"/"+type+"_datas.json", "w") as outfile:
-        outfile.write(json_object)
-
-def main():
-    print("hello")
 
 if __name__ == "__main__":
     #crawl_malts()
@@ -110,6 +124,7 @@ if __name__ == "__main__":
     #crawl_yeasts()
     #dump_to_json("malt", malt_list)
     #dump_to_json("hop", hop_list)
-    main()
-
+    #main()
+    #print(yeast_list)
+    pass
     
