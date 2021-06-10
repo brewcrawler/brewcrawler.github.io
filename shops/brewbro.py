@@ -95,7 +95,7 @@ def crawl_yeasts():
 def dump_to_json(type, list):
     data_path = os.path.split(os.path.dirname(__file__))[0]
     json_object = json.dumps(list, indent = 4)
-    with open(data_path+"/"+type+"_datas.json", "a") as outfile:
+    with open(data_path+"/"+type+"_datas.json", "w") as outfile:
         outfile.write(json_object)
 
 if __name__ == "__main__":
