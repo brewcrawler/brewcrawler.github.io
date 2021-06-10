@@ -24,22 +24,38 @@
 </nav>
 <div class="tab-content" id="nav-tabContent">
   <div class="tab-pane fade show active" id="nav-home" role="tabpanel" aria-labelledby="nav-home-tab" data-show-footer="true">
-<table
-  id="table"
-  data-toggle="table"
-  data-url="malt_datas.json">
-  <thead>
-    <tr>
-      <th data-field="type">type</th>
-      <th data-field="name">name</th>
-      <th data-field="price">price</th>
-      <th data-field="shop">shop</th>
-      <th data-field="ebc">ebc</th>
-    </tr>
-  </thead>
-</table>
+    <table
+    id="table"
+    data-toggle="table"
+    data-url="malt_datas.json"
+    data-search="true">
+        <thead>
+            <tr>
+            <th data-field="type">type</th>
+            <th data-field="name" data-sortable="true">name</th>
+            <th data-field="price" data-sortable="true">price</th>
+            <th data-field="ebc" data-sortable="true">ebc</th>
+            <th data-field="shop">shop</th>
+            </tr>
+        </thead>
+    </table>
   </div>
   <div class="tab-pane fade" id="nav-profile" role="tabpanel" aria-labelledby="nav-profile-tab">
+    <table
+    id="table"
+    data-toggle="table"
+    data-url="hop_datas.json"
+    data-search="true">
+        <thead>
+            <tr>
+            <th data-field="type">type</th>
+            <th data-field="name" data-sortable="true">name</th>
+            <th data-field="price" data-sortable="true">price</th>
+            <th data-field="ebc" data-sortable="true">ebc</th>
+            <th data-field="shop">shop</th>
+            </tr>
+        </thead>
+    </table>
   </div>
   <div class="tab-pane fade" id="nav-contact" role="tabpanel" aria-labelledby="nav-contact-tab">...</div>
 </div>
