@@ -12,10 +12,13 @@
     <script src="https://unpkg.com/bootstrap-table@1.18.3/dist/bootstrap-table.min.js"></script>
     <title>Brewshop-crawler</title>
 <script>
-$.getJSON( "https://raw.githubusercontent.com/elmerenges/brewshop-crawler.github.io/main/malt_datas.json", function( data ) {
+//$.getJSON( "https://raw.githubusercontent.com/elmerenges/brewshop-crawler.github.io/main/malt_datas.json", function( data ) {
+$.getJSON( "malt_datas.json", function( data ) {
   var items = [];
   
   $.each( data, function( key, val ) {
+	console.log(val["name"]);
+	alert(val["price"]);
     items.push( "<tr><td>"+val["type"]+"</td><td>"+val["name"]+"</td><td>"+val["price"]+"</td><td>"+val["ebc"]+"</td><td>"+val["shop"]+"</td></tr>" );
   });
   
@@ -25,18 +28,18 @@ $.getJSON( "https://raw.githubusercontent.com/elmerenges/brewshop-crawler.github
   }).appendTo( "malt_table" );
 });
 
-$.getJSON( "https://raw.githubusercontent.com/elmerenges/brewshop-crawler.github.io/main/hop_datas.json", function( data ) {
-  var items = [];
-  
-  $.each( data, function( key, val ) {
-    items.push( "<tr><td>"+val["type"]+"</td><td>"+val["name"]+"</td><td>"+val["price"]+"</td><td>"+val["aa"]+"</td><td>"+val["shop"]+"</td></tr>" );
-  });
-  
-  $( "<tbody>", {
-    "class": "my-new-list",
-    html: items.join( "" )
-  }).appendTo( "hop_table" );
-});
+//$.getJSON( "https://raw.githubusercontent.com/elmerenges/brewshop-crawler.github.io/main/hop_datas.json", function( data ) {
+//  var items = [];
+//  
+//  $.each( data, function( key, val ) {
+//    items.push( "<tr><td>"+val["type"]+"</td><td>"+val["name"]+"</td><td>"+val["price"]+"</td><td>"+val["aa"]+"</td><td>"+val["shop"]+"</td></tr>" );
+//  });
+//  
+//  $( "<tbody>", {
+//    "class": "my-new-list",
+//    html: items.join( "" )
+//  }).appendTo( "hop_table" );
+//});
 </script>
   </head>
   <body>
@@ -50,7 +53,7 @@ $.getJSON( "https://raw.githubusercontent.com/elmerenges/brewshop-crawler.github
   </div>
 </nav>
 <div class="tab-content" id="nav-tabContent">
-  <div class="tab-pane fade show active" id="nav-home" role="tabpanel" aria-labelledby="nav-home-tab">
+  <div class="tab-pane fade show active" id="nav-home" role="tabpanel" aria-labelledby="nav-home-tab" data-show-footer="true">
       <table data-toggle="table" id="malt_table" data-toggle="table" data-flat="true" data-search="true">
       <thead>
         <tr>
@@ -64,17 +67,17 @@ $.getJSON( "https://raw.githubusercontent.com/elmerenges/brewshop-crawler.github
     </table>
   </div>
   <div class="tab-pane fade" id="nav-profile" role="tabpanel" aria-labelledby="nav-profile-tab">
-      <table data-toggle="table" id="hop_table" data-toggle="table" data-flat="true" data-search="true">
+      <!--<table data-toggle="table" id="hop_table" data-toggle="table" data-flat="true" data-search="true">
       <thead>
         <tr>
           <th>type</th>
           <th data-sortable="true">name</th>
           <th data-sortable="true">price</th>
-          <th data-sortable="true">ebc</th>
+          <th data-sortable="true">aa</th>
           <th data-sortable="true">shop</th>
         </tr>
       </thead>
-    </table>
+      </table>-->
   </div>
   <div class="tab-pane fade" id="nav-contact" role="tabpanel" aria-labelledby="nav-contact-tab">...</div>
 </div>
