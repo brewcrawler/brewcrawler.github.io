@@ -10,23 +10,23 @@
     <title>Brewshop-crawler</title>
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 <script>
-    $.getJSON( "https://raw.githubusercontent.com/elmerenges/brewshop-crawler.github.io/main/malt_datas.json", function( data ) {
-        //$.getJSON( "malt_datas.json", function( data ) {
-        var items = [];
-        alert("ok");
-        $.each( data, function( key, val ) {
-            console.log(val["name"]);
-            alert(val["price"]);
-            items.push( "<tr><td>"+val["type"]+"</td><td>"+val["name"]+"</td><td>"+val["price"]+"</td><td>"+val["ebc"]+"</td><td>"+val["shop"]+"</td></tr>" );
-        });
-        items.push("</tbody>");
-        $( "<tbody>", {
-            "class": "my-table",
-            html: items.join( "" )
-        }).appendTo( "malt_table" );
-    }).fail( function(d, textStatus, error) {
-        console.error("getJSON failed, status: " + textStatus + ", error: "+error)
-    });
+//    $.getJSON( "https://raw.githubusercontent.com/elmerenges/brewshop-crawler.github.io/main/malt_datas.json", function( data ) {
+//        //$.getJSON( "malt_datas.json", function( data ) {
+//        var items = [];
+//        alert("ok");
+//        $.each( data, function( key, val ) {
+//            console.log(val["name"]);
+//            alert(val["price"]);
+//            items.push( "<tr><td>"+val["type"]+"</td><td>"+val["name"]+"</td><td>"+val["price"]+"</td><td>"+val["ebc"]+"</td><td>"+val["shop"]+"</td></tr>" );
+//        });
+//        items.push("</tbody>");
+//        $( "<tbody>", {
+//            "class": "my-table",
+//            html: items.join( "" )
+//        }).appendTo( "malt_table" );
+//    }).fail( function(d, textStatus, error) {
+//        console.error("getJSON failed, status: " + textStatus + ", error: "+error)
+//    });
 
 //$.getJSON( "https://raw.githubusercontent.com/elmerenges/brewshop-crawler.github.io/main/hop_datas.json", function( data ) {
 //  var items = [];
