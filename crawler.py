@@ -17,7 +17,7 @@ if __name__ == "__main__":
     from shops import *
     arr = os.listdir(os.path.dirname(__file__)+"/shops")
     for file in arr:
-        if file != "__init__.py" and file != "__pycache__" and ".py" in file and "olasz" not in file:
+        if file != "__init__.py" and file != "__pycache__" and file !="template.py" and ".py" in file and "olasz" not in file:
             run = file.replace(".py","")+".crawl_malts()"
             locals = {}
             list = exec("list = "+run, None, locals)
@@ -36,4 +36,3 @@ if __name__ == "__main__":
     dump_to_json("malt", big_malt_list)
     dump_to_json("hop", big_hop_list)
     dump_to_json("yeast", big_yeast_list)
-    #print(big_hop_list)

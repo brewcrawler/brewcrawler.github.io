@@ -14,6 +14,10 @@ malt_list = []
 hop_list = []
 yeast_list = []
 
+headers = {
+    'User-Agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.12; rv:55.0) Gecko/20100101 Firefox/55.0',
+}
+
 def process_malts(soup):
     malts = soup.find_all("div", class_="product-snapshot list_div_item")
     for malt in malts:
@@ -72,7 +76,7 @@ def process_yeasts(soup):
 
 def crawl_malts():
     for malt_page in MALT_URL:
-        page = requests.get(malt_page)
+        page = requests.get(malt_page, headers=headers)
         soup = BeautifulSoup(page.content, 'html.parser')
         multiple_pages = soup.find_all("a", class_="pagination-link")
         page_list = []
@@ -81,14 +85,14 @@ def crawl_malts():
         page_list=list(dict.fromkeys(page_list))
         process_malts(soup)
         for other_page in page_list:
-            page = requests.get(other_page)
+            page = requests.get(other_page, headers=headers)
             soup = BeautifulSoup(page.content, 'html.parser')
             process_malts(soup)
     return malt_list
 
 def crawl_hops():
     for hop_page in HOP_URL:
-        page = requests.get(hop_page)
+        page = requests.get(hop_page, headers=headers)
         soup = BeautifulSoup(page.content, 'html.parser')
         multiple_pages = soup.find_all("a", class_="pagination-link")
         page_list = []
@@ -97,14 +101,14 @@ def crawl_hops():
         page_list=list(dict.fromkeys(page_list))
         process_hops(soup)
         for other_page in page_list:
-            page = requests.get(other_page)
+            page = requests.get(other_page, headers=headers)
             soup = BeautifulSoup(page.content, 'html.parser')
             process_hops(soup)
     return hop_list
 
 def crawl_yeasts():
     for yeast_page in YEAST_URL:
-        page = requests.get(yeast_page)
+        page = requests.get(yeast_page, headers=headers)
         soup = BeautifulSoup(page.content, 'html.parser')
         multiple_pages = soup.find_all("a", class_="pagination-link")
         page_list = []
@@ -113,7 +117,7 @@ def crawl_yeasts():
         page_list=list(dict.fromkeys(page_list))
         process_yeasts(soup)
         for other_page in page_list:
-            page = requests.get(other_page)
+            page = requests.get(other_page, headers=headers)
             soup = BeautifulSoup(page.content, 'html.parser')
             process_yeasts(soup)
     return yeast_list
