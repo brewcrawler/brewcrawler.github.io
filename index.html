@@ -7,40 +7,10 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
     <link rel="stylesheet" href="https://unpkg.com/bootstrap-table@1.18.3/dist/bootstrap-table.min.css">
     <link rel="icon" href="favicon.ico"/>
+	<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/bootstrap-table@1.18.3/dist/bootstrap-table.min.js"></script>
     <title>Brewshop-crawler</title>
-    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-<script>
-//    $.getJSON( "https://raw.githubusercontent.com/elmerenges/brewshop-crawler.github.io/main/malt_datas.json", function( data ) {
-//        //$.getJSON( "malt_datas.json", function( data ) {
-//        var items = [];
-//        alert("ok");
-//        $.each( data, function( key, val ) {
-//            console.log(val["name"]);
-//            alert(val["price"]);
-//            items.push( "<tr><td>"+val["type"]+"</td><td>"+val["name"]+"</td><td>"+val["price"]+"</td><td>"+val["ebc"]+"</td><td>"+val["shop"]+"</td></tr>" );
-//        });
-//        items.push("</tbody>");
-//        $( "<tbody>", {
-//            "class": "my-table",
-//            html: items.join( "" )
-//        }).appendTo( "malt_table" );
-//    }).fail( function(d, textStatus, error) {
-//        console.error("getJSON failed, status: " + textStatus + ", error: "+error)
-//    });
-
-//$.getJSON( "https://raw.githubusercontent.com/elmerenges/brewshop-crawler.github.io/main/hop_datas.json", function( data ) {
-//  var items = [];
-//  
-//  $.each( data, function( key, val ) {
-//    items.push( "<tr><td>"+val["type"]+"</td><td>"+val["name"]+"</td><td>"+val["price"]+"</td><td>"+val["aa"]+"</td><td>"+val["shop"]+"</td></tr>" );
-//  });
-//  
-//  $( "<tbody>", {
-//    "class": "my-new-list",
-//    html: items.join( "" )
-//  }).appendTo( "hop_table" );
-//});
-</script>
   </head>
   <body>
     <center><h1>Brewshop-crawler</h1></center>
@@ -54,35 +24,24 @@
 </nav>
 <div class="tab-content" id="nav-tabContent">
   <div class="tab-pane fade show active" id="nav-home" role="tabpanel" aria-labelledby="nav-home-tab" data-show-footer="true">
-      <table data-toggle="table" id="malt_table" data-toggle="table" data-flat="true" data-search="true">
-      <thead>
-        <tr>
-          <th>type</th>
-          <th data-sortable="true">name</th>
-          <th data-sortable="true">price</th>
-          <th data-sortable="true">ebc</th>
-          <th data-sortable="true">shop</th>
-        </tr>
-      </thead>
-    </table>
+<table
+  id="table"
+  data-toggle="table"
+  data-url="malt_datas.json">
+  <thead>
+    <tr>
+      <th data-field="type">type</th>
+      <th data-field="name">name</th>
+      <th data-field="price">price</th>
+      <th data-field="shop">shop</th>
+      <th data-field="ebc">ebc</th>
+    </tr>
+  </thead>
+</table>
   </div>
   <div class="tab-pane fade" id="nav-profile" role="tabpanel" aria-labelledby="nav-profile-tab">
-      <!--<table data-toggle="table" id="hop_table" data-toggle="table" data-flat="true" data-search="true">
-      <thead>
-        <tr>
-          <th>type</th>
-          <th data-sortable="true">name</th>
-          <th data-sortable="true">price</th>
-          <th data-sortable="true">aa</th>
-          <th data-sortable="true">shop</th>
-        </tr>
-      </thead>
-      </table>-->
   </div>
   <div class="tab-pane fade" id="nav-contact" role="tabpanel" aria-labelledby="nav-contact-tab">...</div>
 </div>
-    
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
-    <script src="https://unpkg.com/bootstrap-table@1.18.3/dist/bootstrap-table.min.js"></script>
   </body>
 </html>
