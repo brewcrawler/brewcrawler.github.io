@@ -7,7 +7,7 @@ from bs4 import BeautifulSoup
 MALT_URL = ["https://www.brewbro.hu/malatak/osszes-malata"]
 HOP_URL = ["https://www.brewbro.hu/komlok/osszes-komlo"]
 YEAST_URL = ["https://www.brewbro.hu/elesztok/osszes-eleszto"]
-SHOP = "Brewbro"
+SHOP = "Olasz"
 
 page = None
 soup = None
@@ -59,47 +59,41 @@ def process_hops(soup):
             hop_list.append(temp)
 
 def crawl_malts():
-    for malt_page in MALT_URL:
-        page = requests.get(malt_page)
-        soup = BeautifulSoup(page.content, 'html.parser')
-        multiple_pages = soup.find_all("a", class_="pagination-link")
-        page_list = []
-        for mp in multiple_pages:
-            page_list.append(mp["href"])
-        page_list=list(dict.fromkeys(page_list))
-        process_malts(soup)
-        for other_page in page_list:
-            page = requests.get(other_page)
-            soup = BeautifulSoup(page.content, 'html.parser')
-            process_malts(soup)
+    #for malt_page in MALT_URL:
+    #    page = requests.get(malt_page)
+    #    soup = BeautifulSoup(page.content, 'html.parser')
+    #    multiple_pages = soup.find_all("a", class_="pagination-link")
+    #    page_list = []
+    #    for mp in multiple_pages:
+    #        page_list.append(mp["href"])
+    #    page_list=list(dict.fromkeys(page_list))
+    #    process_malts(soup)
+    #    for other_page in page_list:
+    #        page = requests.get(other_page)
+    #        soup = BeautifulSoup(page.content, 'html.parser')
+    #        process_malts(soup)
     return malt_list
 
 def crawl_hops():
-    for hop_page in HOP_URL:
-        page = requests.get(hop_page)
-        soup = BeautifulSoup(page.content, 'html.parser')
-        multiple_pages = soup.find_all("a", class_="pagination-link")
-        page_list = []
-        for mp in multiple_pages:
-            page_list.append(mp["href"])
-        page_list=list(dict.fromkeys(page_list))
-        process_hops(soup)
-        for other_page in page_list:
-            page = requests.get(other_page)
-            soup = BeautifulSoup(page.content, 'html.parser')
-            process_hops(soup)
+    #for hop_page in HOP_URL:
+    #    page = requests.get(hop_page)
+    #    soup = BeautifulSoup(page.content, 'html.parser')
+    #    multiple_pages = soup.find_all("a", class_="pagination-link")
+    #    page_list = []
+    #    for mp in multiple_pages:
+    #        page_list.append(mp["href"])
+    #    page_list=list(dict.fromkeys(page_list))
+    #    process_hops(soup)
+    #    for other_page in page_list:
+    #        page = requests.get(other_page)
+    #        soup = BeautifulSoup(page.content, 'html.parser')
+    #        process_hops(soup)
     return hop_list
 
 def crawl_yeasts():
     
     return yeast_list
     pass
-
-def dump_to_json(type, list):
-    data_path = os.path.split(os.path.dirname(__file__))[0]
-    json_object = json.dumps(list, indent = 4)
-    with open(data_path+"/"+type+"_datas.json", "w") as outfile:
-        outfile.write(json_object)
 
 def main():
     print("hello")
