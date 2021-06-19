@@ -1,0 +1,380 @@
+[
+    {
+        "type": "yeast",
+        "name": "Fermentis Safbrew S-33 ",
+        "price": "650 Ft",
+        "shop": "Brewbro"
+    },
+    {
+        "type": "yeast",
+        "name": "Mangrove Jack's -M05- Mead",
+        "price": "690 Ft",
+        "shop": "Brewbro"
+    },
+    {
+        "type": "yeast",
+        "name": "Fermentis Safbrew T-58",
+        "price": "750 Ft",
+        "shop": "Brewbro"
+    },
+    {
+        "type": "yeast",
+        "name": "Fermentis Safale S-04 (English Ale)",
+        "price": "990 Ft",
+        "shop": "Brewbro"
+    },
+    {
+        "type": "yeast",
+        "name": "Fermentis Safale US-05 (American Ale)",
+        "price": "990 Ft",
+        "shop": "Brewbro"
+    },
+    {
+        "type": "yeast",
+        "name": "Fermentis Safale K-97",
+        "price": "1.090 Ft",
+        "shop": "Brewbro"
+    },
+    {
+        "type": "yeast",
+        "name": "Fermentis Safale BE-134",
+        "price": "1.090 Ft",
+        "shop": "Brewbro"
+    },
+    {
+        "type": "yeast",
+        "name": "Mangrove Jack's -M20- Bavarian Wheat Yeast",
+        "price": "1.090 Ft",
+        "shop": "Brewbro"
+    },
+    {
+        "type": "yeast",
+        "name": "Mangrove Jack's -M36- Liberty Bell Ale Yeast",
+        "price": "1.090 Ft",
+        "shop": "Brewbro"
+    },
+    {
+        "type": "yeast",
+        "name": "Mangrove Jack's -M44- US West Coast Yeast",
+        "price": "1.090 Ft",
+        "shop": "Brewbro"
+    },
+    {
+        "type": "yeast",
+        "name": "Mangrove Jack's -M84- Bohemian Lager Yeast",
+        "price": "1.090 Ft",
+        "shop": "Brewbro"
+    },
+    {
+        "type": "yeast",
+        "name": "Mangrove Jack's -M21- Belgian Wit",
+        "price": "1.090 Ft",
+        "shop": "Brewbro"
+    },
+    {
+        "type": "yeast",
+        "name": "Mangrove Jack's -M15- Empire Ale Yeast",
+        "price": "1.190 Ft",
+        "shop": "Brewbro"
+    },
+    {
+        "type": "yeast",
+        "name": "Mangrove Jack's -M42- New World Strong Ale Yeast",
+        "price": "1.190 Ft",
+        "shop": "Brewbro"
+    },
+    {
+        "type": "yeast",
+        "name": "Mangrove Jack's -M47- Belgian Abbey Yeast",
+        "price": "1.190 Ft",
+        "shop": "Brewbro"
+    },
+    {
+        "type": "yeast",
+        "name": "Mangrove Jack's -M54- Californian Lager Yeast",
+        "price": "1.190 Ft",
+        "shop": "Brewbro"
+    },
+    {
+        "type": "yeast",
+        "name": "Fermentis Safbrew WB-06 (Wheat Beer)",
+        "price": "1.290 Ft",
+        "shop": "Brewbro"
+    },
+    {
+        "type": "yeast",
+        "name": "Mangrove Jack's -M41- Belgian Ale Yeast",
+        "price": "1.290 Ft",
+        "shop": "Brewbro"
+    },
+    {
+        "type": "yeast",
+        "name": "Fermentis Safbrew BE-256",
+        "price": "1.390 Ft",
+        "shop": "Brewbro"
+    },
+    {
+        "type": "yeast",
+        "name": "Mangrove Jack's - M29 - French Saison Ale",
+        "price": "1.390 Ft",
+        "shop": "Brewbro"
+    },
+    {
+        "type": "yeast",
+        "name": "Fermentis Saflager S-23",
+        "price": "1.490 Ft",
+        "shop": "Brewbro"
+    },
+    {
+        "type": "yeast",
+        "name": "Lallemand K\u00f6ln (K\u00f6lsch)",
+        "price": "1.490 Ft",
+        "shop": "Brewbro"
+    },
+    {
+        "type": "yeast",
+        "name": "Mangrove Jack's -M31- Belgian Tripel",
+        "price": "1.490 Ft",
+        "shop": "Brewbro"
+    },
+    {
+        "type": "yeast",
+        "name": "Mangrove Jack's -M76- Bavarian Lager",
+        "price": "1.490 Ft",
+        "shop": "Brewbro"
+    },
+    {
+        "type": "yeast",
+        "name": "Lallemand Voss Kveik",
+        "price": "1.590 Ft",
+        "shop": "Brewbro"
+    },
+    {
+        "type": "yeast",
+        "name": "Mangrove Jack's -M12- Kveik Yeast",
+        "price": "1.590 Ft",
+        "shop": "Brewbro"
+    },
+    {
+        "type": "yeast",
+        "name": "Fermentis Saflager W-34/70 (German Lager)",
+        "price": "1.690 Ft",
+        "shop": "Brewbro"
+    },
+    {
+        "type": "yeast",
+        "name": "YeastFlow McGyver - American Style Ale (YF-107)",
+        "price": "2.690 Ft",
+        "shop": "Brewbro"
+    },
+    {
+        "type": "yeast",
+        "name": "YeastFlow Steamprunk - London Style Ale (YF-103)",
+        "price": "2.690 Ft",
+        "shop": "Brewbro"
+    },
+    {
+        "type": "yeast",
+        "name": "YeastFlow Father Tibi - Belgian Style Ale (YF-203) ",
+        "price": "2.690 Ft",
+        "shop": "Brewbro"
+    },
+    {
+        "type": "yeast",
+        "name": "YeastFlow Mr.Weizen - American Style Wheat (YF-401)",
+        "price": "2.690 Ft",
+        "shop": "Brewbro"
+    },
+    {
+        "type": "yeast",
+        "name": "YeastFlow Herr Weizen - German Style Wheat (YF-402)",
+        "price": "2.690 Ft",
+        "shop": "Brewbro"
+    },
+    {
+        "type": "yeast",
+        "name": "YeastFlow Kingster - Saison Style Ale (YF-501)",
+        "price": "2.690 Ft",
+        "shop": "Brewbro"
+    },
+    {
+        "type": "yeast",
+        "name": "YeastFlow Pils'ing Them Softly - Pils style lager (YF-301)",
+        "price": "2.690 Ft",
+        "shop": "Brewbro"
+    },
+    {
+        "type": "yeast",
+        "name": "YeastFlow British Bulldog - Ringwood style ale (YF102)",
+        "price": "2.690 Ft",
+        "shop": "Brewbro"
+    },
+    {
+        "type": "yeast",
+        "name": "YeastFlow Caskaway - Cask, ESB Style Ale (YF-109)",
+        "price": "2.690 Ft",
+        "shop": "Brewbro"
+    },
+    {
+        "type": "yeast",
+        "name": "YeastFlow Priest D'vell - Belgian Style Ale (YF-202)",
+        "price": "2.690 Ft",
+        "shop": "Brewbro"
+    },
+    {
+        "type": "yeast",
+        "name": "YeastFlow Holy C\u00f6libate - Belgian Style Ale (YF-205)",
+        "price": "2.690 Ft",
+        "shop": "Brewbro"
+    },
+    {
+        "type": "yeast",
+        "name": "YeastFlow Hotspur Viking - Norwegian farmhouse ale (YF-503)",
+        "price": "2.690 Ft",
+        "shop": "Brewbro"
+    },
+    {
+        "type": "yeast",
+        "name": "YeastFlow Yeastman - Barleywine Style (YF-666)",
+        "price": "2.690 Ft",
+        "shop": "Brewbro"
+    },
+    {
+        "type": "yeast",
+        "name": "YeastFlow Double Agent - Belgian wild (YF-206)",
+        "price": "2.690 Ft",
+        "shop": "Brewbro"
+    },
+    {
+        "type": "yeast",
+        "name": "YeastFlow Wit'n a minute -Witbeer ale (YF-207)",
+        "price": "2.690 Ft",
+        "shop": "Brewbro"
+    },
+    {
+        "type": "yeast",
+        "name": "YeastFlow Bockster - Bock style lager (YF-304)",
+        "price": "2.690 Ft",
+        "shop": "Brewbro"
+    },
+    {
+        "type": "yeast",
+        "name": "YeastFlow Redshamrock - Irish style ale  (YF-106)",
+        "price": "2.690 Ft",
+        "shop": "Brewbro"
+    },
+    {
+        "type": "yeast",
+        "name": "YeastFlow Californithologist (YF-303)",
+        "price": "2.690 Ft",
+        "shop": "Brewbro"
+    },
+    {
+        "type": "yeast",
+        "name": "YeastFlow Yeastoberfest - German style lager (YF-303)",
+        "price": "2.690 Ft",
+        "shop": "Brewbro"
+    },
+    {
+        "type": "yeast",
+        "name": "YeastFlow - Queen of Hearts (YF-101)",
+        "price": "2.690 Ft",
+        "shop": "Brewbro"
+    },
+    {
+        "type": "yeast",
+        "name": "YeastFlow Jawohl! - German Style Ale (YF-108)",
+        "price": "2.690 Ft",
+        "shop": "Brewbro"
+    },
+    {
+        "type": "yeast",
+        "name": "YeastFlow Terrier - Yorkshire style ale (YF-104)",
+        "price": "2.690 Ft",
+        "shop": "Brewbro"
+    },
+    {
+        "type": "yeast",
+        "name": "YeastFlow Pacification - American style ale (YF111)",
+        "price": "2.690 Ft",
+        "shop": "Brewbro"
+    },
+    {
+        "type": "yeast",
+        "name": "YeastFlow Priest Passion - Belgian Saison Style Ale (YF-208)",
+        "price": "2.690 Ft",
+        "shop": "Brewbro"
+    },
+    {
+        "type": "yeast",
+        "name": "YeastFlow Farmster - Belgian and Saison Style Ale (YF-502)",
+        "price": "2.690 Ft",
+        "shop": "Brewbro"
+    },
+    {
+        "type": "yeast",
+        "name": "YeastFlow Brett Pid - Brettanomyces bruxellensis (YF-801)",
+        "price": "2.690 Ft",
+        "shop": "Brewbro"
+    },
+    {
+        "type": "yeast",
+        "name": "YeastFlow K\u00f6lschermeister - German style ale (YF-110)",
+        "price": "2.690 Ft",
+        "shop": "Brewbro"
+    },
+    {
+        "type": "yeast",
+        "name": "YeastFlow Sourprise - lactobacillus brevis (YF-999)",
+        "price": "2.790 Ft",
+        "shop": "Brewbro"
+    },
+    {
+        "type": "yeast",
+        "name": "Fermentis SpringFerm BR-2 \u00e9leszt\u0151 t\u00e1ps\u00f3",
+        "price": "3.290 Ft",
+        "shop": "Brewbro"
+    },
+    {
+        "type": "yeast",
+        "name": "Wyeast 1056 - American Ale",
+        "price": "3.990 Ft",
+        "shop": "Brewbro"
+    },
+    {
+        "type": "yeast",
+        "name": "Wyeast 1272 - American Ale II",
+        "price": "3.990 Ft",
+        "shop": "Brewbro"
+    },
+    {
+        "type": "yeast",
+        "name": "Wyeast 2124 -  Bohemian Lager",
+        "price": "3.990 Ft",
+        "shop": "Brewbro"
+    },
+    {
+        "type": "yeast",
+        "name": "Wyeast 3522 - Belgian Ardennes",
+        "price": "3.990 Ft",
+        "shop": "Brewbro"
+    },
+    {
+        "type": "yeast",
+        "name": "Wyeast 1318 - London Ale III",
+        "price": "3.990 Ft",
+        "shop": "Brewbro"
+    },
+    {
+        "type": "yeast",
+        "name": "Wyeast 3711 - French Saison",
+        "price": "3.990 Ft",
+        "shop": "Brewbro"
+    },
+    {
+        "type": "yeast",
+        "name": "Wyeast 3278 - Belgian Lambic Blend",
+        "price": "4.190 Ft",
+        "shop": "Brewbro"
+    }
+]

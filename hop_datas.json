@@ -1,0 +1,394 @@
+[
+    {
+        "type": "hop",
+        "name": "Brewer's Gold",
+        "price": "1.090 Ft",
+        "aa": "7-11,3%",
+        "shop": "Brewbro"
+    },
+    {
+        "type": "hop",
+        "name": "Callista",
+        "price": "1.090 Ft",
+        "aa": "2-5%",
+        "shop": "Brewbro"
+    },
+    {
+        "type": "hop",
+        "name": "Herkules",
+        "price": "1.190 Ft",
+        "aa": "12-17%",
+        "shop": "Brewbro"
+    },
+    {
+        "type": "hop",
+        "name": "Huell Melon",
+        "price": "1.190 Ft",
+        "aa": "6,0-7,5%",
+        "shop": "Brewbro"
+    },
+    {
+        "type": "hop",
+        "name": "Barbe Rouge",
+        "price": "1.190 Ft",
+        "aa": "7-10%",
+        "shop": "Brewbro"
+    },
+    {
+        "type": "hop",
+        "name": "First Gold",
+        "price": "1.190 Ft",
+        "aa": "6,5-10%",
+        "shop": "Brewbro"
+    },
+    {
+        "type": "hop",
+        "name": "Hallertau Blanc ",
+        "price": "1.290 Ft",
+        "aa": "9-12%",
+        "shop": "Brewbro"
+    },
+    {
+        "type": "hop",
+        "name": "Magnum ",
+        "price": "1.290 Ft",
+        "aa": "11-16%",
+        "shop": "Brewbro"
+    },
+    {
+        "type": "hop",
+        "name": "Saaz ",
+        "price": "1.290 Ft",
+        "aa": "2-6%",
+        "shop": "Brewbro"
+    },
+    {
+        "type": "hop",
+        "name": "Fuggle",
+        "price": "1.290 Ft",
+        "aa": "3,5-5,6%",
+        "shop": "Brewbro"
+    },
+    {
+        "type": "hop",
+        "name": "Spalt Select",
+        "price": "1.290 Ft",
+        "aa": "3-6%",
+        "shop": "Brewbro"
+    },
+    {
+        "type": "hop",
+        "name": "Hallertau Mittelfr\u00fch",
+        "price": "1.390 Ft",
+        "aa": "3,5-4,5%",
+        "shop": "Brewbro"
+    },
+    {
+        "type": "hop",
+        "name": "Hersbrucker",
+        "price": "1.390 Ft",
+        "aa": "1,5-4%",
+        "shop": "Brewbro"
+    },
+    {
+        "type": "hop",
+        "name": "Mandarina Bavaria ",
+        "price": "1.390 Ft",
+        "aa": "7-10%",
+        "shop": "Brewbro"
+    },
+    {
+        "type": "hop",
+        "name": "Northern Brewer",
+        "price": "1.390 Ft",
+        "aa": "6-10%",
+        "shop": "Brewbro"
+    },
+    {
+        "type": "hop",
+        "name": "Tettnanger",
+        "price": "1.390 Ft",
+        "aa": "3-6%",
+        "shop": "Brewbro"
+    },
+    {
+        "type": "hop",
+        "name": "Kazbek",
+        "price": "1.390 Ft",
+        "aa": "5-8%",
+        "shop": "Brewbro"
+    },
+    {
+        "type": "hop",
+        "name": "Challenger",
+        "price": "1.490 Ft",
+        "aa": "6,0-9,0%",
+        "shop": "Brewbro"
+    },
+    {
+        "type": "hop",
+        "name": "Columbus",
+        "price": "1.490 Ft",
+        "aa": "14-16%",
+        "shop": "Brewbro"
+    },
+    {
+        "type": "hop",
+        "name": "Summit ",
+        "price": "1.490 Ft",
+        "aa": "14-18%",
+        "shop": "Brewbro"
+    },
+    {
+        "type": "hop",
+        "name": "Warrior",
+        "price": "1.490 Ft",
+        "aa": "13-17%",
+        "shop": "Brewbro"
+    },
+    {
+        "type": "hop",
+        "name": "Styrian Golding",
+        "price": "1.490 Ft",
+        "aa": "3-6%",
+        "shop": "Brewbro"
+    },
+    {
+        "type": "hop",
+        "name": "Bramling Cross",
+        "price": "1.490 Ft",
+        "aa": "6-8%",
+        "shop": "Brewbro"
+    },
+    {
+        "type": "hop",
+        "name": "Ariana",
+        "price": "1.490 Ft",
+        "aa": "8-12%",
+        "shop": "Brewbro"
+    },
+    {
+        "type": "hop",
+        "name": "Cascade ",
+        "price": "1.590 Ft",
+        "aa": "4,5-7%",
+        "shop": "Brewbro"
+    },
+    {
+        "type": "hop",
+        "name": "East Kent Goldings",
+        "price": "1.590 Ft",
+        "aa": "4-6%",
+        "shop": "Brewbro"
+    },
+    {
+        "type": "hop",
+        "name": "Willamette ",
+        "price": "1.590 Ft",
+        "aa": "4-6%",
+        "shop": "Brewbro"
+    },
+    {
+        "type": "hop",
+        "name": "Centennial",
+        "price": "1.690 Ft",
+        "aa": "8-11,5%",
+        "shop": "Brewbro"
+    },
+    {
+        "type": "hop",
+        "name": "Chinook ",
+        "price": "1.690 Ft",
+        "aa": "12-14%",
+        "shop": "Brewbro"
+    },
+    {
+        "type": "hop",
+        "name": "Falconer's Flight",
+        "price": "1.690 Ft",
+        "aa": "9-12%",
+        "shop": "Brewbro"
+    },
+    {
+        "type": "hop",
+        "name": "Target",
+        "price": "1.690 Ft",
+        "aa": "8,5-13,5%",
+        "shop": "Brewbro"
+    },
+    {
+        "type": "hop",
+        "name": "Crystal",
+        "price": "1.790 Ft",
+        "aa": "2,8-4,4%",
+        "shop": "Brewbro"
+    },
+    {
+        "type": "hop",
+        "name": "Loral ",
+        "price": "1.990 Ft",
+        "aa": "11,3-12,2%",
+        "shop": "Brewbro"
+    },
+    {
+        "type": "hop",
+        "name": "Calypso",
+        "price": "1.990 Ft",
+        "aa": "12-14%",
+        "shop": "Brewbro"
+    },
+    {
+        "type": "hop",
+        "name": "Mosaic",
+        "price": "2.090 Ft",
+        "aa": "11,5-13,5%",
+        "shop": "Brewbro"
+    },
+    {
+        "type": "hop",
+        "name": "Ahtanum ",
+        "price": "2.190 Ft",
+        "aa": "4-6,3%",
+        "shop": "Brewbro"
+    },
+    {
+        "type": "hop",
+        "name": "Amarillo",
+        "price": "2.190 Ft",
+        "aa": "7-10%",
+        "shop": "Brewbro"
+    },
+    {
+        "type": "hop",
+        "name": "Simcoe ",
+        "price": "2.190 Ft",
+        "aa": "12-14%",
+        "shop": "Brewbro"
+    },
+    {
+        "type": "hop",
+        "name": "Sorachi Ace ",
+        "price": "2.190 Ft",
+        "aa": "11,5-16%",
+        "shop": "Brewbro"
+    },
+    {
+        "type": "hop",
+        "name": "Wai-iti",
+        "price": "2.190 Ft",
+        "aa": "1,6-3,5%",
+        "shop": "Brewbro"
+    },
+    {
+        "type": "hop",
+        "name": "Ekuanot",
+        "price": "2.190 Ft",
+        "aa": "12-16%",
+        "shop": "Brewbro"
+    },
+    {
+        "type": "hop",
+        "name": "Lemondrop",
+        "price": "2.290 Ft",
+        "aa": "5-7%",
+        "shop": "Brewbro"
+    },
+    {
+        "type": "hop",
+        "name": "Azacca",
+        "price": "2.290 Ft",
+        "aa": "12-16%",
+        "shop": "Brewbro"
+    },
+    {
+        "type": "hop",
+        "name": "Waimea",
+        "price": "2.290 Ft",
+        "aa": "14-19%",
+        "shop": "Brewbro"
+    },
+    {
+        "type": "hop",
+        "name": "Denali",
+        "price": "2.290 Ft",
+        "aa": "13-15%",
+        "shop": "Brewbro"
+    },
+    {
+        "type": "hop",
+        "name": "Sabro",
+        "price": "2.290 Ft",
+        "aa": "12-16%",
+        "shop": "Brewbro"
+    },
+    {
+        "type": "hop",
+        "name": "Pacific Jade",
+        "price": "2.290 Ft",
+        "aa": "12-14%",
+        "shop": "Brewbro"
+    },
+    {
+        "type": "hop",
+        "name": "El Dorado",
+        "price": "2.290 Ft",
+        "aa": "14-16%",
+        "shop": "Brewbro"
+    },
+    {
+        "type": "hop",
+        "name": "Citra",
+        "price": "2.390 Ft",
+        "aa": "10-13%",
+        "shop": "Brewbro"
+    },
+    {
+        "type": "hop",
+        "name": "Nelson Sauvin",
+        "price": "2.390 Ft",
+        "aa": "10,5-12,5%",
+        "shop": "Brewbro"
+    },
+    {
+        "type": "hop",
+        "name": "Idaho 7",
+        "price": "2.390 Ft",
+        "aa": "9-12%",
+        "shop": "Brewbro"
+    },
+    {
+        "type": "hop",
+        "name": "Vic Secret",
+        "price": "2.490 Ft",
+        "aa": "14-18%",
+        "shop": "Brewbro"
+    },
+    {
+        "type": "hop",
+        "name": "HBC 472 ",
+        "price": "2.490 Ft",
+        "aa": "9-12%",
+        "shop": "Brewbro"
+    },
+    {
+        "type": "hop",
+        "name": "Motueka",
+        "price": "2.590 Ft",
+        "aa": "4,5-7,5%",
+        "shop": "Brewbro"
+    },
+    {
+        "type": "hop",
+        "name": "Talus",
+        "price": "2.590 Ft",
+        "aa": "8,9-9,5%",
+        "shop": "Brewbro"
+    },
+    {
+        "type": "hop",
+        "name": "Galaxy",
+        "price": "2.890 Ft",
+        "aa": "11-16%",
+        "shop": "Brewbro"
+    }
+]
