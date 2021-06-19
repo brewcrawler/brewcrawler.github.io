@@ -1,2 +1,2 @@
-# brewshop-crawler.github.io
-https://elmerenges.github.io/brewshop-crawler.github.io/
+# brewcrawler.github.io
+https://brewcrawler.github.io/
